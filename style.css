@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&amp;display=swap');
+
+* {
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FBF7EE;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+section{
+    margin-top: 3rem;
+}
+ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0%;
+}
+li{
+    margin-left: 20px;
+    list-style: none;
+  
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+button
+{   min-width: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: #0B48A8;
+    border-radius: 5px ;
+    border: #0B48A8;
+    box-shadow: black;
+    padding: 5px;
+}
+button:hover
+{
+    background-color: #2a5cac;
+}
+.navbar
+{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.End{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display:block;
+    text-align: center;
+ }
+.part2{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 50px;
+    
+}
+.carts{
+    background-color: #fff;
+    border: 3px solid wheat ;
+    margin: 2px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.carts>h2{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 900px) {
+    .navbar {
+        display:block;
+        text-align:center;
+    }
+    #main
+    {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #BgHero
+    {
+        width: auto;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin: auto;
+        border: solid black;
+    }
+    #chek
+    {
+        display: inline;
+    }
+    
+    
+}
+
+
+
+
+    
+
+
+
+h1 {
+    color: #19396f;
+    font-size: 45px;
+}
+.gray {
+    color: #adadad;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.offer {
+    background-color: #fbf3e3;
+    border: solid gray 1px;
+    border-radius: 10px;
+    width: 260px;
+    height: 390px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.offerBOTTON {
+    background-color:#13366d;
+    width: 110px;
+    height: 22px;
+    border-radius:40px;
+    margin-top: 20px;
+    
+    
+}
+.offerBOTTON p{
+    color: white;
+    text-align: center;
+    padding-bottom: 4px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+div.link {
+    border: solid rgb(16,68,164) 1px;
+    padding-bottom: 45px;
+    
+}
+.offer div a p {
+    color: rgb(16,68,164);
+    text-align: center;
+    font-weight: bold;
+    line-height: 13px;
+    
+}
+li {
+    color: #000;
+}
+.link {
+    width: 90%;
+    height: 40px;
+    border-radius:8px;
+    margin-top: 16px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.offer > p {
+    color: #adadad;
+    
+} 
+strong {
+    color: #000;
+ }
+.contactUS{
+    position: relative;
+}
+.contactUS strong {
+    color: #000;
+    position:absolute;
+    top: 7.9rem;
+}
+#offer {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 30px;
+    
+}
+.offer ul li p{
+    font-size: 16px;
+}
+#line {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 50px;
+    
+}
+#last {
+    background-color: #fff4ec;
+    margin-top: 0;
+    height: 230px;
+}
+#last p {
+    color: #000;
+}
+#last div {
+    height: 70x;
+    width: 140px;
+    margin-top: 16px;
+}
+#last div img {
+    height: 110px;
+    width:  200px;
+}
+
+
+
+
+#chek{
+    margin-top: 2rem;
+}
+input{
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgba(126, 120, 120, 0.788);
+ }
+.titreA
+{
+
+    color: #13366D;
+    
+}
+
+#main
+{
+    display: flex;
+    
+}
+
+#BgHero
+{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.parChek
+{
+    font-size: 16px;
+}
+
+.sec
+{   padding-top: 10%;
+    padding-right: 10%;
+}
+
+#btn
+{
+    color: aliceblue;
+    background-color: #0B48A8;
+    border-radius: 5px ;
+    border: #0B48A8;
+}
+#btn:hover
+{
+    background-color: #2a5cac;
+}
+
+#chek
+{
+    display: flex;
+}
+body {
+    min-width: 430px;
+}
